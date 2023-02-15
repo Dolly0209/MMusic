@@ -41,7 +41,11 @@ main.py: starts training the model
 utils.py: contains utility functions
 data.py: loads our dataset
 MMusic_log.txt: a log file of the results of one of the experiments
+train_tr.csv: the processed training dataset
+valid_tr.csv: the processed validation dataset
+test_tr.csv: the processed test dataset
 
+MMusic_log.txt: a log file of the results of one of the experiments
 src/models/MMusic/eval.py: evaluates the model with a validation dataset
 src/models/MMusic/model.py: implements the forward function of our model
 src/models/MMusic/train.py: implements a function for training the model
